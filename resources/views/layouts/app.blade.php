@@ -9,14 +9,14 @@
 
     <title>{{ config('app.name', 'Migraciones') }}</title>
     <?php
-            $version = '1993.0.1';
+            $version = '1993.0.2';
         ?>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="{{asset('assets/images/logos/favicon.png')}}?v=<?php echo $version ?>"
-    <link href="{{asset('assets/css/styles.css')}}?v=<?php echo $version ?>" rel="stylesheet"> />
+    <link rel="shortcut icon" type="image/png" href="{{asset('assets/images/logos/favicon.png')}}?v=<?php echo $version ?>">
+    <link href="{{asset('assets/css/styles.css')}}?v=<?php echo $version ?>" rel="stylesheet">
     <link href="{{asset('assets/css/styles.min.css')}}?v=<?php echo $version ?>" rel="stylesheet">
     <link href="{{asset('assets/css/mystyles.css')}}?v=<?php echo $version ?>" rel="stylesheet">
     <!-- Scripts -->
